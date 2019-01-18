@@ -1,0 +1,46 @@
+h1, h2 {
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: "Times New Roman", Serif;
+}
+table {
+  text-align: left;
+  border-collapse: collapse;
+  border: 1px solid grey;
+  font-family: "Century Gothic", Serif;
+}
+th {
+  border: 1px solid grey;
+  font-weight: bolder;
+  background-color: #031B7E;
+  color: white;
+  cursor: pointer;
+}
+td {
+  border: 1px solid grey;
+  font-weight: 500;
+}
+table tr:nth-child(even) td {
+  background-color: #DDDDDD;
+}
+table tr:nth-child(odd) td {
+  background-color: #FFFFFF;
+}
+#todo {
+  width: 420px;
+}   
+#staff {
+  width: 380px;
+}
+.ascend {
+  background-color: #A6AEFC;
+  background-image: url(ascend.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.descend {
+  background-color: #A6AEFC;
+  background-image: url(descend.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}

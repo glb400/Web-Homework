@@ -1,0 +1,10 @@
+{
+    "extends": "standard",
+    "globals": {
+      "discribe": true,
+      "beforeEach": true,
+      "afterEach": true,
+      "after": true,
+      "it": true
+    }
+}

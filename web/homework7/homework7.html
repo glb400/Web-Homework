@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拼图游戏</title>
+    <link href="homework7.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="homework7.js"></script>
+</head>
+<body>
+    <div id="container">
+        <p>拼图游戏</p>
+        <div id="imgLoad">
+            <div id="imgBlock">
+                <img src="panda.jpg" id="imgJigsaw" height="340px" width="340px"/>
+            </div>
+        </div>
+        <div>
+            <input type="button" onclick="reset()" id="ResetBTN" value="重新开始"/>
+        </div>
+        <br/>
+        <div>
+            <input type="text" id="levels" placeholder="请输入你的想要的阶数n" />
+            <input type="button" onclick="submit1()" value="提交" />
+        </div>
+        <br/>
+        <div>
+            <input type="text" id="ownimgs" placeholder="请输入你想使用的图片URL" />
+            <input type="button" onclick="submit2()" value="提交" />
+        </div>
+    </div>
+</body>
+</html>

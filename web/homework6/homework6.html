@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="homework6.css" rel="stylesheet" type="text/css" />
+    <script src="homework6.js" type="text/javascript"></script>
+</head>
+<body>
+    <p id="amazing">The Amazing Mouse Maze!</p>
+    <p>Move your mouse over the "S" to begin.</p>
+    <p id="Reminder"><br/></p>
+    <div id="map">
+        <div id="upperblock">
+            <div id="upperupper" class="ChangeToRed"></div>
+            <div id="upperlower">
+                <div id="upperlower_left" class="ChangeToRed"></div>
+                <div id="upperlower_middle">
+                    <div id="upperlower_middle_upper"></div>
+                    <div id="upperlower_middle_lower">
+                        <div id="upperlower_middle_lower_left"></div>
+                        <div id="upperlower_middle_lower_middle" class="ChangeToRed"></div>
+                        <div id="upperlower_middle_lower_right"></div>
+                    </div>
+                </div>
+                <div id="upperlower_right" class="ChangeToRed"></div>
+            </div>
+        </div>
+        <div id="lowerblock">
+            <div id="lowerupper">
+                <div id="lowerupper_left">
+                    <div id="blockS">S</div>
+                </div>
+                <div id="lowerupper_middle" class="ChangeToRed"></div>
+                <div id="lowerupper_right">
+                    <div id="blockE">E</div>
+                </div>
+            </div>
+            <div id="lowerlower" class="ChangeToRed"></div>
+        </div>
+    </div>
+    <div id="lower">
+        <p class="lowerspan">The object of this game is to guide the mouse cursor through the start area</p>
+        <p class="lowerspan">and get to the end area.Be sure to avoid the walls:</p>
+        <br />
+        <div id="walls"></div>
+        <p class="lowerspan">Good luck!</p>
+    </div>
+</body>
+</html>

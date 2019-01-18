@@ -1,0 +1,114 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0px;
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    margin-left: 50px;
+    border-width: 0;
+    border-bottom-width: 1px;
+    outline: none;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: rgb(250, 255, 189);
+    background-image: none;
+    color: rgb(0, 0, 0);
+}
+
+.error{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.username{
+    position: relative;
+    text-align: left;
+    width: 800px;
+    height: 50px;
+    top:20px;
+    left: 400px;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543245484974&di=3fad1322ed039a2b7b4c38be924135f6&imgtype=0&src=http%3A%2F%2Fpic27.photophoto.cn%2F20130605%2F0010023920765083_b.jpg);
+    background-size:30px 30px;
+    background-repeat: no-repeat;
+    background-position: 60px 0;
+}
+
+.sid{
+    position: relative;
+    text-align: left;
+    width: 800px;
+    height: 50px;
+    top: 80px;
+    left: 400px;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543246407349&di=b0d43dbf0cf8412c6eb68ff3fe167045&imgtype=0&src=http%3A%2F%2Fpic170.nipic.com%2Ffile%2F20180626%2F26940441_215620421034_2.jpg);
+    background-size:30px 30px;
+    background-repeat: no-repeat;
+    background-position: 40px 0;
+}
+
+.phone{
+    position: relative;
+    text-align: left;
+    width: 800px;
+    height: 50px;
+    top: 140px;
+    left: 400px;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543246489470&di=422c5faaba1086c82d64f39f7f4e4f96&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F82%2F38%2F44E58PICQvF_1024.jpg);
+    background-size:30px 30px;
+    background-repeat: no-repeat;
+    background-position: 40px 0;
+}
+
+.email{
+    position: relative;
+    text-align: left;
+    width: 800px;
+    height: 50px;
+    top: 200px;
+    left: 400px;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543246584698&di=cff9a925f1a69136b8c383d5c4c6fe1d&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F01%2F37%2F55%2F66573c53796d2c7.jpg);
+    background-size:30px 26px;
+    background-repeat: no-repeat;
+    background-position: 40px 0;
+}
+
+.buttons{
+    position: relative;
+    width: 800px;
+    height: 30px;
+    top: 240px;
+    left: 230px;
+}
+
+.buttons input{
+    width: 50px;
+    height: 30px;
+    opacity: 0.76;
+    color: #757575;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    line-height: 27px;
+}
+
+.buttons input:hover{
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    border: 1px solid #c6c6c6;
+}
+
+span{
+    font-size: 12px;
+    color: brown;
+    margin: 5px;
+}

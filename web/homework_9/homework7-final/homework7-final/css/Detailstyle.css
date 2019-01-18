@@ -1,0 +1,65 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0px;
+    text-align: center;
+    font-family: arial, sans-serif;
+} 
+
+.username{
+    position: relative;
+    /* text-align: left; */
+    width: 500px;
+    height: 50px;
+    top:20px;
+    left: 450px;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543247229022&di=bdf7610b947bc6b98c8b9a06fbd9f5b4&imgtype=0&src=http%3A%2F%2Fpic27.photophoto.cn%2F20130605%2F0010023920765083_b.jpg);
+    background-size:30px 30px;
+    background-repeat: no-repeat;
+    background-position: 60px 0;
+}
+
+.sid{
+    position: relative;
+    /* text-align: left; */
+    width: 500px;
+    height: 50px;
+    top: 80px;
+    left: 450px;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543246407349&di=b0d43dbf0cf8412c6eb68ff3fe167045&imgtype=0&src=http%3A%2F%2Fpic170.nipic.com%2Ffile%2F20180626%2F26940441_215620421034_2.jpg);
+    background-size:30px 30px;
+    background-repeat: no-repeat;
+    background-position: 40px 0;
+}
+
+.phone{
+    position: relative;
+    /* text-align: left; */
+    width: 500px;
+    height: 50px;
+    top: 140px;
+    left: 450px;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543246489470&di=422c5faaba1086c82d64f39f7f4e4f96&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F82%2F38%2F44E58PICQvF_1024.jpg);
+    background-size:30px 30px;
+    background-repeat: no-repeat;
+    background-position: 40px 0;
+}
+
+.email{
+    position: relative;
+    /* text-align: left; */
+    width: 500px;
+    height: 50px;
+    top: 200px;
+    left: 450px;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543246584698&di=cff9a925f1a69136b8c383d5c4c6fe1d&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F01%2F37%2F55%2F66573c53796d2c7.jpg);
+    background-size:30px 26px;
+    background-repeat: no-repeat;
+    background-position: 40px 0;
+}
+
+span{
+    font-size: 18px;
+}

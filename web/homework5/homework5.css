@@ -1,0 +1,37 @@
+input{
+    margin: 10px;
+}
+.textbox{
+    height: 40px;
+    width: 300px;
+}
+.button{
+    height: 40px;
+    width: 60px;
+    margin: 20px;
+    background-color: rgba(220,220,220,1);
+}
+.buttoncolumn{
+    width: 80px;
+    float: left;
+}
+#buttons{
+    text-align: center;
+    border: 1px solid black;
+}
+#frame{
+    text-align: center;
+    margin: 0 auto;
+    height: 500px;
+    width: 340px;
+    background-color: rgba(200,200,200,1);
+    border: 1px solid black;
+}
+#header{
+    text-align: center;
+    font-size: 20pt;
+    color: green;
+}
+#result{
+
+}

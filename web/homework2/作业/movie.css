@@ -1,0 +1,117 @@
+body{
+    background: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/background.png?version=1&modificationDate=1268896312000");
+    font-size: 8pt;
+    font-family:Verdana,Tahoma,sans-serif;
+    margin:0;
+    padding:0;
+}
+h1{
+    text-align: center;
+}
+dt{
+    font-weight: bold;
+}
+dd{
+    padding-bottom: 1em;
+}
+.box{
+    overflow: hidden;
+    background-color: #E1D697;
+    border: 2px gray solid;
+    font-size: 8pt;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-right: 8px;
+/*    padding-bottom: 5px;*/
+}
+.comment{
+    padding-bottom: 3em;
+}
+.divcontent{
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0 auto;
+    width: 800px;
+    border: 4px gray solid;
+}
+.divoutside{
+    height:50px;
+    text-align: center;
+    background: repeat-x url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/bannerbackground.png?version=1&modificationDate=1268896312000") top;
+}
+.divrightupper{
+    background-color: #A2B964;
+    width: 250px;
+    float: right;
+    padding-bottom: 0;
+    text-align: right;
+}
+.divleftupper{
+    overflow: hidden;
+    width: 550px;
+    background: repeat-x url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/rottenbackground.png?version=1&modificationDate=1268896385000");
+}
+.divrightlower{
+    float:right;
+    clear:right;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    font-size: 8pt;
+    font-family: Arial,sans-serif ;
+    width: 230px;
+    background-color: #A2B964;
+}
+.divleftlowerleft{
+    float: left;
+    width: 258.5px;
+    padding-left: 11px;
+}
+.divleftlowerright{
+    float: right;
+    width: 258.5px;
+    padding-right: 11px;
+}
+.divleftlower{
+    width:550px;
+    padding-top: 12px;
+    padding-bottom: 0;
+}
+.divlowerbanner{
+    clear: both;
+    margin: 0;
+    height: 30px;
+    padding: 1px;
+    text-align: center;
+    background-color: #A2B964;
+}
+.divright{
+    float: right;
+    width:250px;
+}
+.span1{
+    font-size: 48pt;
+    color:red ;
+}
+.span2{
+    font-size: 8pt;
+    color: white;
+}
+.em{
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+.left{
+    float:left;
+    padding: 5px;
+}
+.right{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#img1{
+    float: left;
+}

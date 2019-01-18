@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简单计算器</title>
+    <script type="text/javascript" src="homework5.js"></script>
+    <link type="text/css" rel="stylesheet" href="homework5.css"/>
+</head>
+<body>
+    <div id="frame">
+        <div id="header">
+            简单计算器
+        </div>
+        <div>
+            <input id="result"  class="textbox"/>
+        </div>
+        <div id="buttons">
+            <div class="buttoncolumn">
+                <input id="7" type="button" value="7" class="button" onclick="read(this.value)"/>
+                <input id="4" type="button" value="4" class="button" onclick="read(this.value)"/>
+                <input id="1" type="button" value="1" class="button" onclick="read(this.value)"/>
+                <input id="0" type="button" value="0" class="button" onclick="read(this.value)"/>
+                <input id="(" type="button" value="(" class="button" onclick="read(this.value)"/>
+            </div>
+            <div class="buttoncolumn">
+                <input id="8" type="button" value="8" class="button" onclick="read(this.value)"/>
+                <input id="5" type="button" value="5" class="button" onclick="read(this.value)"/>
+                <input id="2" type="button" value="2" class="button" onclick="read(this.value)"/>
+                <input id="." type="button" value="." class="button" onclick="read(this.value)"/>
+                <input id=")" type="button" value=")" class="button" onclick="read(this.value)"/>
+            </div>
+            <div class="buttoncolumn">
+                <input id="9" type="button" value="9" class="button" onclick="read(this.value)"/>
+                <input id="6" type="button" value="6" class="button" onclick="read(this.value)"/>
+                <input id="3" type="button" value="3" class="button" onclick="read(this.value)"/>
+                <input id="←" type="button" value="←" class="button" onclick="backspace()"/>
+                <input id="CE" type="button" value="CE" class="button" onclick="CE()"/>
+            </div>
+            <div class="buttoncolumn">
+                <input id="/" type="button" value="/" class="button" onclick="read(this.value)"/>
+                <input id="*" type="button" value="*" class="button" onclick="read(this.value)"/>
+                <input id="-" type="button" value="-" class="button" onclick="read(this.value)"/>
+                <input id="+" type="button" value="+" class="button" onclick="read(this.value)"/>
+                <input id="=" type="button" value="=" class="button" onclick="equal()"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

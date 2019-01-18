@@ -1,0 +1,7 @@
+该作业的五种额外功能均已实现
+下述五种额外功能：
+Background: Set the overall page to use a background image of silverware.jpg (use absolute URLs to link to all images). The image should repeat in both directions across the page and should not move when the page is scrolled.
+Favicon: Set the page to have a "favorites icon" ("favicon") of pie_icon.gif (use absolute URLs to link to all images). The favicon will not work properly in Internet Explorer; you may ignore this.
+Pie bullet: Set all bulleted lists of items on the page to use an image for their bullet icon rather than the normal black circle. Use the image of pie_icon.gif (use absolute URLs to link to all images).
+Wide headings: Widen all headings on the page by placing 0.2em of horizontal spacing between neighboring letters in all headings.
+Borderless image links: Get rid of the yellow borders around the W3C images at the bottom of the page.

@@ -1,0 +1,40 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        link(rel='stylesheet' href='./css/Userstyle.css')
+        script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js')
+        script(type='text/javascript' src='./js/validator.js')
+        script(type='text/javascript' src='./js/signup.js')
+        title 注册
+    body
+        form(method = 'post')
+            fieldset
+                legend 用户注册
+                if error
+                    div.error!= error
+            
+                div.username
+                    label(for='username') 用户名 
+                    input(id='username' name='username' placeholder='please input your username')
+                    span.error
+
+                div.sid
+                    label(for='sid') 学号
+                    input(id='sid' name='sid' placeholder='please input your studentID')
+                    span.error
+
+                div.phone
+                    label(for='phone') 电话
+                    input(id='phone' name='phone' placeholder='please input your phone number')
+                    span.error
+
+                div.email
+                    label(for='email') 邮箱
+                    input(id='email' name='email' placeholder='please input your email address')
+                    span.error
+
+            div.buttons
+                input.button.reset(id="reset" type="reset",value="重置")
+                input.button.reset(id="submit" type="submit",value="提交")
+                

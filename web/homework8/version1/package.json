@@ -1,0 +1,11 @@
+{
+  "name": "homework8",
+  "version": "1.0.0",
+  "description": "homework8",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gyr",
+  "license": "ISC"
+}

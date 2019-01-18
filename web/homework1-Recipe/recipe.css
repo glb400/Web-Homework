@@ -1,0 +1,55 @@
+h1{
+	font-family:Century Gothic,Futura,Verdana,sans-serif;
+	font-size:22pt;
+	font-weight: bold;
+	text-decoration: underline;
+	color:#A4A400;
+	text-align: center;
+	letter-spacing: +0.2em;
+}
+h2,h3,h4,h5,h6{
+	font-family:Century Gothic,Futura,Verdana,sans-serif;
+	font-size:18pt;
+	font-weight: lighter;
+	background: lightgray;
+	text-decoration: underline;
+	color:#A4A400;
+	letter-spacing: +0.2em;
+	/*text-align: center;*/
+}
+p{
+	font-family: Georgia,Garamond,serif;
+	color:#404040;
+	background: white;
+	font-size: 11pt;
+}
+ul{
+	font-family: Georgia,Garamond,serif;
+	color:#404040;
+	background:white;
+	font-size: 11pt;
+}
+ol{
+	font-family: Georgia,Garamond,serif;
+	color:#404040;
+	font-size: 11pt;
+}
+a:link
+{
+	font-family: Georgia,Garamond,serif;
+	color:#A4A400;
+}
+a:visited
+{
+	font-family: Georgia,Garamond,serif;
+	color:#A4A400;
+}
+.red_black{
+	display: block;
+	width: 300px;
+	margin-top:-10px;
+	margin-left: 0px;
+	background: linear-gradient(to right,red,black);
+	-webkit-background-clip:text;
+	color:transparent;
+}
